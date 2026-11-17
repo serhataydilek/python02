@@ -33,6 +33,7 @@ def test_error_types() -> None:
                 print(f"Caught TypeError: {error}")
             else:
                 print("Operation completed successfully")
+    print()
     print("All error types tested successfully!")
 
 
